@@ -238,6 +238,9 @@ ul{
     .navbar-brand{
         display:none;
     }
+    .mainbar{
+        height: 50px;
+    }
     
 }
 @media (min-width: 578px){
