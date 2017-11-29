@@ -238,8 +238,11 @@ ul{
     .navbar-brand{
         display:none;
     }
-    .mainbar{
-        height: 50px;
+    .navbar{ 
+        height: 50px !important;
+    }
+    .navbar-toggle{
+        margin-top:8px;
     }
     
 }
@@ -252,11 +255,6 @@ ul{
     .conct1{
         display:none;
     } 
-}
-@media (max-width: 991px){
-    .navbar-toggle{
-        text-align: left;
-    }
 }
 @media (min-width: 1200px){
     .toosmall{
